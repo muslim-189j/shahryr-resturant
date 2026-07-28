@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO & Open Graph Meta Tags -->
+    <title>Shahryar Restaurant | Fine Dining & Traditional Cuisine in Faisalabad</title>
+    <meta name="description" content="Experience luxury dining at Shahryar Restaurant on Jail Road, Faisalabad. Offering premium BBQ, Karahi, Chinese, Fast Food, and traditional Pakistani cuisine in an elegant atmosphere.">
+    <meta name="keywords" content="Shahryar Restaurant, Faisalabad Restaurants, Jail Road Dining, Pakistani Cuisine, Luxury BBQ, Karahi, Family Dining Faisalabad">
+    <meta name="author" content="Demo Website Concept">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shahryar-restaurant-demo.pk/">
+    <meta property="og:title" content="Shahryar Restaurant | Luxury Dining Experience">
+    <meta property="og:description" content="Savor authentic flavors, premium BBQ, and exquisite traditional cuisine at Shahryar Restaurant, Jail Road, Faisalabad.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shahryar Restaurant | Luxury Dining Experience">
+    <meta name="twitter:description" content="Savor authentic flavors, premium BBQ, and exquisite traditional cuisine at Shahryar Restaurant, Jail Road, Faisalabad.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="./style.css">
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Shahryar Restaurant",
+      "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+      "@id": "https://shahryar-restaurant-demo.pk",
+      "url": "https://shahryar-restaurant-demo.pk",
+      "telephone": "+923457868377",
+      "priceRange": "$$",
+      "menu": "https://shahryar-restaurant-demo.pk/#menu",
+      "servesCuisine": ["Pakistani", "BBQ", "Karahi", "Chinese", "Fast Food"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jail Road, Akbarabad",
+        "addressLocality": "Faisalabad",
+        "addressRegion": "Punjab",
+        "postalCode": "38000",
+        "addressCountry": "PK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 31.4180,
+        "longitude": 73.0790
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "12:00",
+        "closes": "01:00"
+      },
+      "sameAs": [
+        "https://facebook.com"
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Custom Cursor Canvas & Glow -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-glow" data-cursor-glow></div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+    </div>
+
+    <!-- 1. PRELOADER -->
+    <div id="preloader" class="preloader-overlay">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <span class="logo-mark">S</span>
+                <span class="logo-text">SHAHRYAR</span>
+            </div>
+            <div class="loading-bar-wrapper">
+                <div class="loading-bar-fill" id="loadingBar"></div>
+            </div>
+            <p class="loading-subtitle" id="typingLoadingText">Preparing Your Dining Experience...</p>
+        </div>
+    </div>
+
+    <!-- 2. STICKY GLASS NAVIGATION -->
+    <header class="header-main" id="mainHeader">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">
+                <span class="brand-crest">S</span>
+                <div class="brand-name-wrap">
+                    <span class="brand-title">SHAHRYAR</span>
+                    <span class="brand-tagline">RESTAURANT</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#why-us" class="nav-link">Why Us</a></li>
+                    <li class="nav-item"><a href="#signature" class="nav-link">Signature</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#chef-special" class="nav-link">Chef Special</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#reservations" class="btn btn-gold ripple-btn nav-btn">
+                    <span>Book Table</span>
+                </a>
+                <button class="hamburger-toggle" id="hamburgerBtn" aria-label="Toggle Navigation Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <main id="main-content">
+
+        <!-- 3. HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1920&q=80');"></div>
+            
+            <div class="floating-shape shape-1" data-speed="2"></div>
+            <div class="floating-shape shape-2" data-speed="-2"></div>
+
+            <div class="hero-container">
+                <div class="hero-content" data-parallax-content>
+                    <span class="hero-badge" data-reveal>Fine Dining & Royal Flavors</span>
+                    <h1 class="hero-title" data-reveal>
+                        Where Culinary Heritage Meets <span class="gold-gradient-text">Modern Elegance</span>
+                    </h1>
+                    <p class="hero-description" data-reveal>
+                        Indulge in an extraordinary gastronomic journey at Jail Road, Faisalabad. Savor premium slow-cooked Karahis, live charcoal BBQ, and signature artisan dishes crafted for discerning palates.
+                    </p>
+
+                    <div class="hero-btn-group" data-reveal>
+                        <a href="#reservations" class="btn btn-gold ripple-btn">
+                            <span>Reserve Table</span>
+                        </a>
+                        <a href="#menu" class="btn btn-outline ripple-btn">
+                            <span>View Full Menu</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-quick-stats" data-reveal>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Years of Culinary Excellence</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Master Chef Recipes</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="100">0</span><span class="stat-k">K+</span>
+                            <span class="stat-label">Delighted Guests</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About Section">
+                <span class="mouse-icon">
+                    <span class="mouse-wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll To Explore</span>
+            </a>
+        </section>
+
+        <!-- 4. ABOUT RESTAURANT -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="grid grid-2-col align-center">
+                    <div class="about-images-wrapper" data-reveal>
+                        <div class="image-stack image-primary" data-tilt>
+                            <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" alt="Shahryar Restaurant Interior Dining Experience" loading="lazy">
+                        </div>
+                        <div class="image-stack image-secondary" data-tilt>
+                            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Master Chef Preparing BBQ Dish" loading="lazy">
+                        </div>
+                        <div class="experience-badge-floating">
+                            <span class="exp-years">15+</span>
+                            <span class="exp-text">Years of Heritage</span>
+                        </div>
+                    </div>
+
+                    <div class="about-content" data-reveal>
+                        <div class="section-header align-left">
+                            <span class="section-subtitle">Our Heritage & Passion</span>
+                            <h2 class="section-title">Redefining Fine Dining in <span class="gold-gradient-text">Faisalabad</span></h2>
+                        </div>
+                        
+                        <p class="lead-text">
+                            Shahryar Restaurant was founded on a simple yet unyielding commitment: to elevate classic Pakistani and international flavors through meticulous craftsmanship and uncompromised hospitality.
+                        </p>
+                        
+                        <p class="body-text">
+                            Nestled in the bustling heart of Akbarabad on Jail Road, our establishment merges the warm nostalgia of traditional live-fire cooking with a refined, contemporary atmosphere. Every dish is a testament to our relentless search for pristine ingredients, hand-ground aromatic spices, and time-honored cooking techniques.
+                        </p>
+
+                        <!-- Experience Timeline -->
+                        <div class="about-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2011</div>
+                                <div class="timeline-details">
+                                    <h4>The Beginning</h4>
+                                    <p>Started as a humble family BBQ house dedicated to authentic clay-oven cooking.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2018</div>
+                                <div class="timeline-details">
+                                    <h4>Culinary Expansion</h4>
+                                    <p>Expanded menu to include Desi Karahi, Chinese fusion, and premium executive platters.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2026</div>
+                                <div class="timeline-details">
+                                    <h4>Luxury Flagship Experience</h4>
+                                    <p>Transformed into a state-of-the-art fine dining sanctuary for families and connoisseurs.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-vision-mission">
+                            <div class="vm-card">
+                                <h3>Our Mission</h3>
+                                <p>To create unforgettable culinary moments through flawless service, absolute hygiene, and remarkable taste.</p>
+                            </div>
+                            <div class="vm-card">
+                                <h3>Our Vision</h3>
+                                <p>To remain Faisalabad’s premier benchmark for hospitality, innovation, and culinary authenticness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. WHY CHOOSE US -->
+        <section id="why-us" class="why-us-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">The Shahryar Difference</span>
+                    <h2 class="section-title">Designed For <span class="gold-gradient-text">Unrivaled Excellence</span></h2>
+                    <p class="section-description">We combine passion, precision, and luxury to deliver an unmatched dining environment for you and your loved ones.</p>
+                </div>
+
+                <div class="grid grid-4-col why-us-grid">
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                        </div>
+                        <h3>Fresh Ingredients</h3>
+                        <p>Locally sourced, farm-fresh produce and daily hand-selected grass-fed meats ensure peak flavor profile.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 13.87A8 8 0 0 1 12 4a8 8 0 0 1 6 9.87M12 20v2m-6-2l-1.5 1.5M18 20l1.5 1.5"/></svg>
+                        </div>
+                        <h3>Master Chefs</h3>
+                        <p>Guided by seasoned culinary artisans with decades of mastery in live BBQ charcoal grills and Desi Karahis.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <h3>Family Friendly</h3>
+                        <p>Dedicated family dining areas designed with comfortable private seating, spacious halls, and ambient warmth.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Hygienic Kitchen</h3>
+                        <p>Strict safety protocols, open inspection-grade kitchens, and sterile food handling procedures at all times.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <h3>Swift Service</h3>
+                        <p>Prompt, seamless service managed by a dedicated waitstaff trained in luxury hospitality standards.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                        </div>
+                        <h3>Free Valet Parking</h3>
+                        <p>Hassle-free parking right on Jail Road with secure monitoring and complimentary valet services.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18M3 12h18M5.3 5.3l13.4 13.4M5.3 18.7L18.7 5.3"/></svg>
+                        </div>
+                        <h3>Outdoor Seating</h3>
+                        <p>Breathe in the evening air with our tastefully illuminated open-air dining terrace under the stars.</p>
+                    </div>
+
+                    <div class="feature-card glass-card" data-reveal>
+                        <div class="feature-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                        </div>
+                        <h3>Luxury Ambience</h3>
+                        <p>Modern architectural lighting, glassmorphism accents, soft acoustics, and custom luxury seating.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. SIGNATURE DISHES -->
+        <section id="signature" class="signature-section section-padding">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">Crown Jewels Of Our Kitchen</span>
+                    <h2 class="section-title">Signature <span class="gold-gradient-text">Delicacies</span></h2>
+                    <p class="section-description">Handpicked recommendations curated by our Executive Chef, crafted to perfection.</p>
+                </div>
+
+                <div class="grid grid-3-col signature-grid">
+                    <!-- Signature Card 1 -->
+                    <div class="signature-card glass-card 3d-card" data-reveal data-tilt>
+                        <div class="card-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=800&q=80" alt="Royal Mutton Shinwari Karahi" loading="lazy">
+                            <span class="dish-badge">Chef's Top Pick</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="rating">★ 4.9 (180+ Reviews)</span>
+                                <span class="price">PKR 2,850</span>
+                            </div>
+                            <h3>Royal Mutton Shinwari Karahi</h3>
+                            <p>Tender fresh mutton cooked in pure animal fat, organic tomatoes, green chillies, and black pepper in a traditional iron skillet.</p>
+                            <div class="card-actions">
+                                <a href="#reservations" class="btn btn-gold-sm ripple-btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Signature Card 2 -->
+                    <div class="signature-card glass-card 3d-card" data-reveal data-tilt>
+                        <div class="card-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=800&q=80" alt="Smoked Charcoal Reshmi Kabab" loading="lazy">
+                            <span class="dish-badge">Bestseller</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="rating">★ 4.9 (210+ Reviews)</span>
+                                <span class="price">PKR 1,450</span>
+                            </div>
+                            <h3>Smoked Charcoal Reshmi Kabab</h3>
+                            <p>Melt-in-your-mouth minced chicken marinated with heavy cream, white pepper, saffron, and slow-charred over open embers.</p>
+                            <div class="card-actions">
+                                <a href="#reservations" class="btn btn-gold-sm ripple-btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Signature Card 3 -->
+                    <div class="signature-card glass-card 3d-card" data-reveal data-tilt>
+                        <div class="card-image-wrap">
+                            <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80" alt="Special Shahryar Dum Biryani" loading="lazy">
+                            <span class="dish-badge">House Special</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="rating">★ 4.8 (150+ Reviews)</span>
+                                <span class="price">PKR 1,200</span>
+                            </div>
+                            <h3>Special Shahryar Dum Biryani</h3>
+                            <p>Long-grain aged basmati rice layered with succulent marinated chicken, whole aromatic spices, and sealed with dough in a clay pot.</p>
+                            <div class="card-actions">
+                                <a href="#reservations" class="btn btn-gold-sm ripple-btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. COMPLETE FOOD MENU -->
+        <section id="menu" class="menu-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">Exquisite Gastronomy</span>
+                    <h2 class="section-title">Explore Our <span class="gold-gradient-text">Complete Menu</span></h2>
+                    <p class="section-description">Filter through our diverse categories of authentic recipes carefully prepared for every craving.</p>
+                </div>
+
+                <!-- Menu Filter Navigation -->
+                <div class="menu-filter-wrapper" data-reveal>
+                    <button class="menu-filter-btn active" data-filter="all">All Dishes</button>
+                    <button class="menu-filter-btn" data-filter="bbq">Live BBQ</button>
+                    <button class="menu-filter-btn" data-filter="karahi">Karahi Special</button>
+                    <button class="menu-filter-btn" data-filter="chinese">Chinese</button>
+                    <button class="menu-filter-btn" data-filter="fastfood">Fast Food</button>
+                    <button class="menu-filter-btn" data-filter="rice">Rice Specialties</button>
+                    <button class="menu-filter-btn" data-filter="desserts">Desserts</button>
+                    <button class="menu-filter-btn" data-filter="drinks">Beverages</button>
+                </div>
+
+                <!-- Menu Items Grid -->
+                <div class="menu-grid" id="menuGrid">
+
+                    <!-- BBQ -->
+                    <div class="menu-item-card glass-card" data-category="bbq" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=400&q=80" alt="Chicken Malai Boti" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Chicken Malai Boti</h4>
+                                <span class="menu-price">PKR 1,350</span>
+                            </div>
+                            <p class="menu-desc">Boneless chicken cubes marinated in rich cream, cashew paste, and aromatic green herbs.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card glass-card" data-category="bbq" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Mutton Chops Grill" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Charcoal Mutton Chops</h4>
+                                <span class="menu-price">PKR 2,600</span>
+                            </div>
+                            <p class="menu-desc">Prime mutton chops tenderized with raw papaya and charcoal-grilled to juicy perfection.</p>
+                        </div>
+                    </div>
+
+                    <!-- KARAHI -->
+                    <div class="menu-item-card glass-card" data-category="karahi" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=400&q=80" alt="Desi Ghee Chicken Karahi" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Desi Ghee Chicken Karahi</h4>
+                                <span class="menu-price">PKR 1,850</span>
+                            </div>
+                            <p class="menu-desc">Organic farm chicken wok-tossed in pure butter ghee, fresh ginger juliennes, and cracked spices.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card glass-card" data-category="karahi" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=400&q=80" alt="White Handi Special" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Shahryar White Chicken Handi</h4>
+                                <span class="menu-price">PKR 1,950</span>
+                            </div>
+                            <p class="menu-desc">Boneless chicken cooked in a smooth velvet cream sauce with almonds and white pepper.</p>
+                        </div>
+                    </div>
+
+                    <!-- CHINESE -->
+                    <div class="menu-item-card glass-card" data-category="chinese" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=400&q=80" alt="Chicken Shashlik with Rice" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Chicken Shashlik with Rice</h4>
+                                <span class="menu-price">PKR 1,250</span>
+                            </div>
+                            <p class="menu-desc">Tender chicken cubes with capsicum and onions in tangy red sauce served over garlic rice.</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card glass-card" data-category="chinese" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=400&q=80" alt="Special Chow Mein" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Chef's Special Chow Mein</h4>
+                                <span class="menu-price">PKR 1,100</span>
+                            </div>
+                            <p class="menu-desc">Hand-pulled wok noodles tossed with fresh garden vegetables, chicken strips, and dark soy blend.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAST FOOD -->
+                    <div class="menu-item-card glass-card" data-category="fastfood" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=400&q=80" alt="Shahryar Smash Burger" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Shahryar Monster Smash Burger</h4>
+                                <span class="menu-price">PKR 950</span>
+                            </div>
+                            <p class="menu-desc">Double beef smash patty, melted cheddar cheese, caramelized onions, and signature secret sauce.</p>
+                        </div>
+                    </div>
+
+                    <!-- RICE -->
+                    <div class="menu-item-card glass-card" data-category="rice" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1633945274405-b6c8069047b0?auto=format&fit=crop&w=400&q=80" alt="Kabuli Palaw" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Special Mutton Kabuli Palaw</h4>
+                                <span class="menu-price">PKR 1,600</span>
+                            </div>
+                            <p class="menu-desc">Traditional steamed rice with sweet carrots, raisins, and tender braised mutton shank.</p>
+                        </div>
+                    </div>
+
+                    <!-- DESSERTS -->
+                    <div class="menu-item-card glass-card" data-category="desserts" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=400&q=80" alt="Royal Gulab Jamun with Ice Cream" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Hot Gulab Jamun with Vanilla</h4>
+                                <span class="menu-price">PKR 450</span>
+                            </div>
+                            <p class="menu-desc">Warm saffron-soaked khoya dumplings served alongside artisan vanilla bean ice cream.</p>
+                        </div>
+                    </div>
+
+                    <!-- DRINKS -->
+                    <div class="menu-item-card glass-card" data-category="drinks" data-reveal>
+                        <div class="menu-thumb">
+                            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=400&q=80" alt="Mint Margarita Mocktail" loading="lazy">
+                        </div>
+                        <div class="menu-info">
+                            <div class="menu-head">
+                                <h4 class="menu-name">Fresh Mint Lemonade Margarita</h4>
+                                <span class="menu-price">PKR 380</span>
+                            </div>
+                            <p class="menu-desc">Crushed garden mint, freshly squeezed lime, lemon soda, and sea salt blend.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CHEF'S SPECIAL SECTION -->
+        <section id="chef-special" class="chef-special-section section-padding">
+            <div class="container">
+                <div class="glass-card chef-showcase-box" data-reveal>
+                    <div class="grid grid-2-col align-center">
+                        <div class="chef-image-side" data-tilt>
+                            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=800&q=80" alt="Executive Chef Preparing Plate" loading="lazy">
+                            <div class="chef-badge-overlay">
+                                <span>Masterpiece Of The Month</span>
+                            </div>
+                        </div>
+
+                        <div class="chef-content-side">
+                            <span class="section-subtitle">Exclusive Culinary Creation</span>
+                            <h2 class="section-title">The Royal <span class="gold-gradient-text">Shahryar Feast Platter</span></h2>
+                            <p class="body-text">
+                                Engineered for grand celebrations and family gatherings. A dramatic grand platter featuring Mutton Shinwari, Chicken Malai Boti, Reshmi Kababs, Fish Tikka, Garlic Naan, and signature dips—presented over live table embers.
+                            </p>
+
+                            <ul class="special-feature-list">
+                                <li>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Serves 4-6 Persons Comfortably
+                                </li>
+                                <li>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Includes Complimentary Desserts & Drinks
+                                </li>
+                                <li>
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4AF37" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                    Prepared On Demand via Live Charcoal Table Setup
+                                </li>
+                            </ul>
+
+                            <div class="special-price-wrap">
+                                <span class="price-old">PKR 8,500</span>
+                                <span class="price-current">PKR 6,999</span>
+                            </div>
+
+                            <a href="#reservations" class="btn btn-gold ripple-btn">
+                                <span>Reserve This Experience</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. FOOD GALLERY -->
+        <section id="gallery" class="gallery-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">Visual Feast</span>
+                    <h2 class="section-title">A Glimpse Into <span class="gold-gradient-text">Our Atmosphere</span></h2>
+                    <p class="section-description">Immerse your eyes in our cozy interiors, handcrafted dishes, and memorable dining moments.</p>
+                </div>
+
+                <div class="gallery-masonry" id="galleryMasonry">
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=80" alt="Main Hall Dining Interior" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">Main Dining Hall</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Charcoal Barbecue Grill" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">Live Charcoal Grill</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Juicy Mutton Ribs" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">Juicy Mutton Ribs</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=600&q=80" alt="VIP Seating Zone" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">VIP Lounge Zone</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Royal Biryani Pot" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">Clay Pot Dum Biryani</span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-reveal data-lightbox-src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1200&q=80">
+                        <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80" alt="Artisan Drinks Bar" loading="lazy">
+                        <div class="gallery-hover-overlay">
+                            <span class="gallery-icon">+</span>
+                            <span class="gallery-caption">Fresh Mocktail Bar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX MODAL -->
+        <div id="lightboxModal" class="lightbox-modal">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <img class="lightbox-content" id="lightboxImage" alt="Enlarged Gallery Photo">
+        </div>
+
+        <!-- 10. CUSTOMER REVIEWS -->
+        <section id="reviews" class="reviews-section section-padding">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">Patron Testimonials</span>
+                    <h2 class="section-title">Loved By <span class="gold-gradient-text">Food Lovers</span></h2>
+                    <p class="section-description">Real stories and reviews from local families, business diners, and visitors in Faisalabad.</p>
+                </div>
+
+                <div class="grid grid-3-col reviews-grid">
+                    <!-- Review Card 1 -->
+                    <div class="review-card glass-card" data-reveal>
+                        <div class="google-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                            <span>Verified Google Review</span>
+                        </div>
+                        <div class="star-rating">★★★★★</div>
+                        <p class="review-text">"Hands down the best Shinwari Karahi in Faisalabad! The mutton was so tender it fell off the bone. Excellent family ambience on Jail Road with ample parking space."</p>
+                        <div class="reviewer-meta">
+                            <div class="reviewer-avatar">M</div>
+                            <div class="reviewer-info">
+                                <h4>Muhammad Usman</h4>
+                                <span>Local Guide • Faisalabad</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 2 -->
+                    <div class="review-card glass-card" data-reveal>
+                        <div class="google-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                            <span>Verified Google Review</span>
+                        </div>
+                        <div class="star-rating">★★★★★</div>
+                        <p class="review-text">"We hosted a family dinner for 25 people at Shahryar. The Reshmi Kababs and White Handi were exquisite. Service was amazingly fast despite the weekend rush."</p>
+                        <div class="reviewer-meta">
+                            <div class="reviewer-avatar">S</div>
+                            <div class="reviewer-info">
+                                <h4>Dr. Sarah Tariq</h4>
+                                <span>Regular Patron</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 3 -->
+                    <div class="review-card glass-card" data-reveal>
+                        <div class="google-badge">
+                            <svg width="20" height="20" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                            <span>Verified Google Review</span>
+                        </div>
+                        <div class="star-rating">★★★★★</div>
+                        <p class="review-text">"The aesthetic dark theme atmosphere combined with traditional charcoal BBQ makes this spot stand out. High recommendation for corporate dinners."</p>
+                        <div class="reviewer-meta">
+                            <div class="reviewer-avatar">A</div>
+                            <div class="reviewer-info">
+                                <h4>Ali Raza Merchant</h4>
+                                <span>Business Executive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. RESERVATION FORM -->
+        <section id="reservations" class="reservation-section section-padding bg-dark-secondary">
+            <div class="container">
+                <div class="reservation-box glass-card" data-reveal>
+                    <div class="grid grid-2-col align-center">
+                        <div class="reservation-text-side">
+                            <span class="section-subtitle">Book Your Table</span>
+                            <h2 class="section-title">Reserve An <span class="gold-gradient-text">Unforgettable Evening</span></h2>
+                            <p class="body-text">
+                                Avoid weekend wait times. Reserve your table in advance and let our team prepare a customized dining experience for you and your guests.
+                            </p>
+
+                            <div class="res-info-list">
+                                <div class="res-info-item">
+                                    <span class="gold-icon">📞</span>
+                                    <div>
+                                        <h5>Direct Reservation Phone</h5>
+                                        <p>0345-7868377</p>
+                                    </div>
+                                </div>
+                                <div class="res-info-item">
+                                    <span class="gold-icon">🕒</span>
+                                    <div>
+                                        <h5>Operating Hours</h5>
+                                        <p>Mon - Sun: 12:00 PM - 01:00 AM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reservation-form-side">
+                            <form id="bookingForm" class="custom-form" data-netlify="true">
+                                <div class="form-group">
+                                    <label for="resName">Full Name</label>
+                                    <input type="text" id="resName" class="form-input" placeholder="e.g., Hamza Malik" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="resPhone">Phone Number (WhatsApp)</label>
+                                    <input type="tel" id="resPhone" class="form-input" placeholder="e.g., 0345-7868377" required>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="resGuests">Number of Guests</label>
+                                        <select id="resGuests" class="form-input" required>
+                                            <option value="1">1 Person</option>
+                                            <option value="2" selected>2 Persons</option>
+                                            <option value="4">4 Persons</option>
+                                            <option value="6">6 Persons</option>
+                                            <option value="8+">8+ Large Family</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="resDate">Preferred Date</label>
+                                        <input type="date" id="resDate" class="form-input" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="resTime">Preferred Time</label>
+                                        <input type="time" id="resTime" class="form-input" required>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="resSeating">Seating Preference</label>
+                                        <select id="resSeating" class="form-input">
+                                            <option value="indoor">Indoor Glass Lounge</option>
+                                            <option value="outdoor">Outdoor Terrace</option>
+                                            <option value="vip">Private VIP Room</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="resRequests">Special Instructions / Requests</label>
+                                    <textarea id="resRequests" class="form-input" rows="3" placeholder="Anniversary setup, high chair needed, dietary needs..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-gold btn-full ripple-btn">
+                                    <span>Confirm Table Reservation</span>
+                                </button>
+                                <div id="formFeedback" class="form-feedback"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center" data-reveal>
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Visit <span class="gold-gradient-text">Shahryar Restaurant</span></h2>
+                    <p class="section-description">We are conveniently located on Jail Road, Akbarabad, Faisalabad.</p>
+                </div>
+
+                <div class="grid grid-2-col contact-wrapper">
+                    <!-- Contact Cards -->
+                    <div class="contact-details-col" data-reveal>
+                        <div class="glass-card contact-card">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h3>Restaurant Location</h3>
+                                <p>Jail Road, Akbarabad, Faisalabad, Punjab, Pakistan</p>
+                                <a href="https://maps.google.com" target="_blank" rel="noopener" class="inline-link">Get Map Directions →</a>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-card">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-text">
+                                <h3>Phone & Call Support</h3>
+                                <p>0345-7868377</p>
+                                <a href="tel:03457868377" class="inline-link">Click To Call Now →</a>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-card">
+                            <div class="contact-icon">💬</div>
+                            <div class="contact-text">
+                                <h3>Instant WhatsApp Support</h3>
+                                <p>Quick orders, table confirmations, and takeaway queries.</p>
+                                <a href="https://wa.me/923457868377" target="_blank" rel="noopener" class="inline-link gold-btn-text">Chat on WhatsApp →</a>
+                            </div>
+                        </div>
+
+                        <div class="glass-card contact-card">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-text">
+                                <h3>Opening Hours</h3>
+                                <p>Monday - Sunday: 12:00 PM - 01:00 AM</p>
+                                <p><small class="gold-gradient-text">Open on all public holidays</small></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Container -->
+                    <div class="contact-map-col glass-card" data-reveal>
+                        <iframe 
+                            title="Shahryar Restaurant Location Map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.0215712132!2d73.0789!3d31.4180!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a000000001%3A0x0!2sJail%20Rd%2C%20Akbarabad%2C%20Faisalabad!5e0!3m2!1sen!2spk!4v1700000000000!5m2!1sen!2spk" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0; min-height: 400px; filter: grayscale(0.8) invert(0.9) contrast(1.2);" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 13. FOOTER -->
+    <footer class="footer-main">
+        <div class="container">
+            <div class="footer-top grid grid-4-col">
+                
+                <div class="footer-col brand-col">
+                    <a href="#home" class="brand-logo">
+                        <span class="brand-crest">S</span>
+                        <div class="brand-name-wrap">
+                            <span class="brand-title">SHAHRYAR</span>
+                            <span class="brand-tagline">RESTAURANT</span>
+                        </div>
+                    </a>
+                    <p class="footer-about-text">
+                        Faisalabad's premier destination for live charcoal BBQ, traditional Shinwari Karahis, and luxury family dining on Jail Road.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook Page">FB</a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram Profile">IG</a>
+                        <a href="https://wa.me/923457868377" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Our Story</a></li>
+                        <li><a href="#menu">Our Food Menu</a></li>
+                        <li><a href="#chef-special">Chef's Specials</a></li>
+                        <li><a href="#reservations">Book A Table</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Popular Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#menu">Live BBQ & Seekh Kabab</a></li>
+                        <li><a href="#menu">Desi Ghee Shinwari Karahi</a></li>
+                        <li><a href="#menu">Executive Rice & Dum Biryani</a></li>
+                        <li><a href="#menu">Sizzling Chinese & Noodles</a></li>
+                        <li><a href="#menu">Fresh Mocktails & Desserts</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">VIP Newsletter</h4>
+                    <p class="footer-sub-text">Subscribe to receive exclusive dining offers, seasonal menu updates, and VIP table invites.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Enter email address" required class="newsletter-input">
+                        <button type="submit" class="btn btn-gold-sm">Join</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="copyright-text">
+                    &copy; 2026 Shahryar Restaurant. All Rights Reserved. Designed with luxury perfection.
+                </p>
+                <div class="demo-notice-tag">
+                    <span>Demo Website Concept • Created for Presentation Purposes Only • Not Official Website</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button id="backToTopBtn" class="back-to-top" aria-label="Back to Top">
+        ↑
+    </button>
+    <script src="./script.js"></script>
+    <script src="script.js"></script>
+<!-- Script file ko body tag band hone se pehle link karein -->
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
